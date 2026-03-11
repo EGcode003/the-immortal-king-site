@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-noctara-bg: #050505;
+  --color-noctara-accent: #3b82f6; /* Glowing blue */
+  --color-noctara-text: #e5e7eb;
+  --color-noctara-muted: #9ca3af;
+}
+
+@layer base {
+  body {
+    @apply bg-noctara-bg text-noctara-text font-sans selection:bg-noctara-accent/30 selection:text-white;
+  }
+}
+
+.glass-panel {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+}
+
+.glow-border {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+}
