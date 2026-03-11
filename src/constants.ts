@@ -43,3 +43,36 @@ export const STORY_CHAPTERS: Chapter[] = [
     imagePrompt: "Glowing red eyes in a dark frozen mountain cave, mysterious and threatening, foreshadowing a great conflict."
   }
 ];
+
+export const LORE_ENTRIES = [
+  {
+    title: "The Obsidian Citadel",
+    icon: "Citadel",
+    desc: "The tallest structure in the world, carved from a single piece of dark stone. It is the heart of Noctara and the seat of the Immortal King."
+  },
+  {
+    title: "The Endless Twilight",
+    icon: "Twilight",
+    desc: "A phenomenon where the sun remains just below the horizon, bathing the world in a perpetual blue glow and cold winds."
+  },
+  {
+    title: "Shadow Creatures",
+    icon: "Creatures",
+    desc: "Mysterious entities that roam the ruins, neither living nor dead, waiting for the King to return to guide them."
+  },
+  {
+    title: "The Blue Rivers",
+    icon: "Rivers",
+    desc: "Glowing veins of energy that flow through the abandoned cities, providing the only source of light and power in Noctara."
+  },
+  {
+    title: "The Silver City",
+    icon: "City",
+    desc: "The birthplace of Kael, now a silent ruin of marble and glass, where the first whispers of his immortality began."
+  },
+  {
+    title: "The Frozen Mountains",
+    icon: "Mountains",
+    desc: "A treacherous range far beyond the citadel where ancient evils are said to sleep, now awakening as the King rises."
+  }
+];
